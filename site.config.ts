@@ -10,9 +10,9 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Dana Wang Space',
-  domain: 'me.datalab.icu',
-  author: 'Dana Wang',
+  name: 'Dana Wang Blog',
+  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  author: 'Travis Fischer',
 
   // open graph metadata (optional)
   description: 'Perosnal Blog',
