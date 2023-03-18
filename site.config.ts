@@ -36,7 +36,7 @@ export default siteConfig({
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
   // environment variables. see the readme for more info
-  isRedisEnabled: false,
+  isRedisEnabled: true,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
@@ -50,16 +50,28 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '0f657fa8da414a0db9efa8d0c00c4f9e'
+    },
+    {
+      title: 'Projects',
+      pageId: '5ea0cbed22984d9aa6352e622d700b6b'
+    },
+    {
+      title: 'Articles',
+      pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
+    },
+    {
+      title: 'Disk',
+      pageId: 'f1549325033d460a90b336dcb5a6e858'
+    },
+    {
+      title: 'Contact',
+      pageId: 'abb91a0891994dddb0167b50da6cd53c'
+    }
+  ]
 })
