@@ -11,7 +11,7 @@ export default siteConfig({
 
   // basic site info (required)
   // 此处domian
-  name: 'Dana Wang Spance',
+  name: 'Dana Wang Space',
   domain: 'me.datalab.icu',
   author: 'Dana Wang',
 
@@ -51,15 +51,6 @@ export default siteConfig({
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
 
-  // pageUrlAdditions:{
-  //   'f1549325033d460a90b336dcb5a6e858': 'https://onedrive-vercel-index-ebon-pi.vercel.app',
-  // },
-  // pageUrlOverrides: {
-  //   '/about': 'f1549325033d460a90b336dcb5a6e858',
-  // },
-  // pageUrlOverrides: {
-  //   'https://onedrive-vercel-index-ebon-pi.vercel.app': 'f1549325033d460a90b336dcb5a6e858',
-  // },
   pageUrlOverrides:null,
   // 可以在自定义的地址上，链接一个notion文章。
   // 和下面的navigationLinks类似，不过他是放在了导航栏。
