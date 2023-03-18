@@ -1,3 +1,4 @@
+// -*- coding: utf-8 -*-
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
@@ -9,12 +10,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Dana Wang Blog',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Dana Wang Space',
+  domain: 'me.datalab.icu',
+  author: 'Dana Wang',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Perosnal Blog',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
