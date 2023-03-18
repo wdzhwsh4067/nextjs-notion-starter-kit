@@ -80,10 +80,10 @@ export default siteConfig({
       title: 'Projects',
       pageId: '5ea0cbed22984d9aa6352e622d700b6b'
     },
-    {
-      title: 'Articles',
-      pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
-    },
+    // {
+    //   title: 'Articles',
+    //   pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
+    // },
     {
       title: 'Disk',
       pageId: 'f1549325033d460a90b336dcb5a6e858'

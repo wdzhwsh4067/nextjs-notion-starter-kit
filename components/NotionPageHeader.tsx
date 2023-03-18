@@ -48,6 +48,9 @@ export const NotionPageHeader: React.FC<{
         <Breadcrumbs block={block} rootOnly={true} />
 
         <div className='notion-nav-header-rhs breadcrumbs'>
+              <div>
+            Disk
+          </div>
           {navigationLinks
             ?.map((link, index) => {
               if (!link.pageId && !link.url) {
