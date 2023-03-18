@@ -52,7 +52,7 @@ export default siteConfig({
   // }
   pageUrlOverrides: {
     '/foo': 'f1549325033d460a90b336dcb5a6e858',
-  }
+  },
   // pageUrlOverrides: {
   //   'https://onedrive-vercel-index-ebon-pi.vercel.app': 'f1549325033d460a90b336dcb5a6e858',
   // },
@@ -78,7 +78,7 @@ export default siteConfig({
     },
     {
       title: 'Articles',
-      pageId: '47f9073381354c8a96452f465c11b4dc'
+      pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
     },
     {
       title: 'Disk',
