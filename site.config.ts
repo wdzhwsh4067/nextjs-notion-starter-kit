@@ -6,28 +6,28 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '463f8e948aea4b298c035a355e3dceb7',
 
   // basic site info (required)
   name: 'Dana Wang Blog',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  domain: 'me.datalab.iu',
+  author: 'Dana Wang',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Perosnal Blog',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  twitter: 'wdzhwsh4067',
+  github: 'wdzhwsh4067',
+  linkedin: 'wdzhwsh4067',
+  mastodon: 'wdzhwsh4067', // optional mastodon profile URL, provides link verification
+  newsletter: 'wdzhwsh4067', // optional newsletter URL
+  youtube: 'wdzhwsh4067', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
-  defaultPageCover: 'https://www.notion.so/8d3a8a606d3a424a99c34eb7669126ae?pvs=4#1c6bd82d267f4106a8b75c8451701d31',
+  defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -47,7 +47,9 @@ export default siteConfig({
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: null,
-
+  pageUrlAdditions: {
+    '/pageUrlAdditions': '463f8e948aea4b298c035a355e3dceb7'
+  },
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   // navigationStyle: 'default'
