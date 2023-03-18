@@ -10,6 +10,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
+  // 此处domian
+  
   name: 'Dana Wang Blog',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   author: 'Dana Wang',
