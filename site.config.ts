@@ -6,11 +6,12 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
+  // 是否限制notion的不同工作区，这里没必要填。
   rootNotionSpaceId: null,
 
   // basic site info (required)
   name: 'Dana Wang Blog',
-  domain: 'me.datalab.icu',
+  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   author: 'Dana Wang',
 
   // open graph metadata (optional)
@@ -53,6 +54,7 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   // navigationStyle: 'default'
+  // 自定义导航栏
   navigationStyle: 'custom',
   navigationLinks: [
     {
