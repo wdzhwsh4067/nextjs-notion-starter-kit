@@ -68,10 +68,6 @@ export default siteConfig({
       pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
     },
     {
-      title: 'Disk',
-      pageId: 'f1549325033d460a90b336dcb5a6e858'
-    },
-    {
       title: 'Contact',
       pageId: 'abb91a0891994dddb0167b50da6cd53c'
     }

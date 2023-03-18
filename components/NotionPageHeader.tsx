@@ -1,5 +1,4 @@
 import * as React from 'react'
-
 import * as types from 'notion-types'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
@@ -48,7 +47,6 @@ export const NotionPageHeader: React.FC<{
         <Breadcrumbs block={block} rootOnly={true} />
 
         <div className='notion-nav-header-rhs breadcrumbs'>
-          <div>Disk</div>
           {navigationLinks
             ?.map((link, index) => {
               if (!link.pageId && !link.url) {
@@ -78,7 +76,14 @@ export const NotionPageHeader: React.FC<{
               }
             })
             .filter(Boolean)}
-
+          {/* add my disk link into here */}
+          <components.Link
+            href="<https://onedrive-vercel-index-ebon-pi.vercel.app>"
+            key="Disk"
+            className={cs(styles.navLink, 'breadcrumb', 'button')}
+          >
+            Disk
+          </components.Link>
           <ToggleThemeButton />
 
           {isSearchEnabled && <Search block={block} title={null} />}
