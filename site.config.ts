@@ -50,6 +50,10 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
+
+  pageUrlAdditions:{
+    'f1549325033d460a90b336dcb5a6e858': 'https://onedrive-vercel-index-ebon-pi.vercel.app',
+  },
   pageUrlOverrides: {
     '/about': 'f1549325033d460a90b336dcb5a6e858',
   },
