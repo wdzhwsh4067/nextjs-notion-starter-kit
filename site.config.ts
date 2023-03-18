@@ -50,8 +50,10 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-
-  pageUrlOverrides:null,
+  pageUrlOverrides: {
+    '/about': 'f1549325033d460a90b336dcb5a6e858',
+  },
+  // pageUrlOverrides:null,
   // 可以在自定义的地址上，链接一个notion文章。
   // 和下面的navigationLinks类似，不过他是放在了导航栏。
   // pageUrlAdditions: {
@@ -59,30 +61,30 @@ export default siteConfig({
   // },
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
+  // navigationStyle: 'default'
   // 自定义导航栏
 
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: '0f657fa8da414a0db9efa8d0c00c4f9e'
-  //   },
-  //   {
-  //     title: 'Projects',
-  //     pageId: '5ea0cbed22984d9aa6352e622d700b6b'
-  //   },
-  //   {
-  //     title: 'Articles',
-  //     pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
-  //   },
-  //   {
-  //     title: 'Disk',
-  //     pageId: 'f1549325033d460a90b336dcb5a6e858'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: 'abb91a0891994dddb0167b50da6cd53c'
-  //   }
-  // ]
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '0f657fa8da414a0db9efa8d0c00c4f9e'
+    },
+    {
+      title: 'Projects',
+      pageId: '5ea0cbed22984d9aa6352e622d700b6b'
+    },
+    {
+      title: 'Articles',
+      pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
+    },
+    {
+      title: 'Disk',
+      pageId: 'f1549325033d460a90b336dcb5a6e858'
+    },
+    {
+      title: 'Contact',
+      pageId: 'abb91a0891994dddb0167b50da6cd53c'
+    }
+  ]
 })
