@@ -74,16 +74,16 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+      pageId: '0f657fa8da414a0db9efa8d0c00c4f9e'
     },
     {
       title: 'Projects',
       pageId: '5ea0cbed22984d9aa6352e622d700b6b'
     },
-    // {
-    //   title: 'Articles',
-    //   pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
-    // },
+    {
+      title: 'Articles',
+      pageId: 'a9fd9dafae9a49d9860d15946a95c0f1'
+    },
     {
       title: 'Disk',
       pageId: 'f1549325033d460a90b336dcb5a6e858'
