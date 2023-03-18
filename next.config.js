@@ -4,6 +4,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
+  env: {
+    // myDiskLink: "<https://onedrive-vercel-index-ebon-pi.vercel.app>",
+    customApi: "<https://api.example.com>",
+  },
   staticPageGenerationTimeout: 300,
   images: {
     domains: [

@@ -78,7 +78,7 @@ export const NotionPageHeader: React.FC<{
             .filter(Boolean)}
           {/* add my disk link into here */}
           <components.Link
-            href="<https://onedrive-vercel-index-ebon-pi.vercel.app>"
+            href={process.env.myDiskLink}
             key="Disk"
             className={cs(styles.navLink, 'breadcrumb', 'button')}
           >
