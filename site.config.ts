@@ -13,15 +13,15 @@ export default siteConfig({
   // 这里domain会导致出错
   name: 'Dana Wang Blog',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  author: 'Dana Wang',
 
   // open graph metadata (optional)
   description: 'Perosnal Blog',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  // twitter: 'transitive_bs',
+  github: 'wdzhwsh4067',
+  // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
