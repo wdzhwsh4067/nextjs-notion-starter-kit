@@ -9,6 +9,7 @@ export default siteConfig({
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: 'keephappy',
 
+  
   // basic site info (required)
   // 这里domain会导致出错
   name: 'Dana Wang Blog',
