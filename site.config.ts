@@ -12,8 +12,9 @@ export default siteConfig({
   
   // basic site info (required)
   // 这里domain会导致出错
+    // domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   name: 'Dana Wang Blog',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain:'keephappy.notion.site',
   author: 'Dana Wang',
 
   // open graph metadata (optional)
