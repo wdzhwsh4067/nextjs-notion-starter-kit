@@ -7,13 +7,16 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: 'keephappy',
+  // 这里填null即可
+  
+  rootNotionSpaceId: 'dde85c74-3bc9-4829-b62f-476b1b0a105a',
 
   
   // basic site info (required)
   // 这里domain会导致出错
     // domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   name: 'Dana Wang Blog',
+  // 这里是付费空间下自定义的域名！
   domain:'keephappy.notion.site',
   author: 'Dana Wang',
 
