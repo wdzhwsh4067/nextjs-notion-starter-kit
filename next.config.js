@@ -8,6 +8,7 @@ module.exports = withBundleAnalyzer({
   },
   staticPageGenerationTimeout: 300,
   images: {
+    unoptimized: true,
     domains: [
       'www.notion.so',
       'notion.so',
@@ -27,7 +28,7 @@ module.exports = withBundleAnalyzer({
       config.optimization.splitChunks = {
         chunks: 'async',
         minSize: 20000,
-        maxSize: 10214400,
+        maxSize: 20214400,
         minChunks: 1,
         maxAsyncRequests: 30,
         maxInitialRequests: 30,
