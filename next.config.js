@@ -27,7 +27,7 @@ module.exports = withBundleAnalyzer({
       config.optimization.splitChunks = {
         chunks: 'async',
         minSize: 20000,
-        maxSize: 20214400,
+        maxSize: 10214400,
         minChunks: 1,
         maxAsyncRequests: 30,
         maxInitialRequests: 30,
