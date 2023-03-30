@@ -7,7 +7,8 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  // 这里根据notion setting pricyh space id
+  // 这里根据notion内嵌视频的播放链接中可以找到spaceid
+  
   rootNotionSpaceId: 'dde85c74-3bc9-4829-b62f-476b1b0a105a',
   
   // basic site info (required)
