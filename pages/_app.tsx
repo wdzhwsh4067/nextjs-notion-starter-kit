@@ -18,7 +18,7 @@ import 'styles/global.css'
 import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
-
+import { Analytics } from '@vercel/analytics/react'
 import { bootstrap } from '@/lib/bootstrap-client'
 import {
   fathomConfig,
@@ -31,6 +31,7 @@ import {
 if (!isServer) {
   bootstrap()
 }
+
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -61,5 +62,11 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />
+  // return <Component {...pageProps} />
+  return (
+  <>
+    <Component {...pageProps} />
+    <Analytics />
+  </>
+  )
 }
