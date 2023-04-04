@@ -8,7 +8,6 @@ module.exports = withBundleAnalyzer({
   },
   staticPageGenerationTimeout: 300,
   images: {
-    unoptimized: true,
     domains: [
       'www.notion.so',
       'notion.so',
