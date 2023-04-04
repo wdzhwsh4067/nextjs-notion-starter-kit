@@ -1,5 +1,10 @@
 // -*- coding: utf-8 -*-
 // 如果部署出错，且配置文件没有问题，很可能是某个页面，无法渲染，导致build出错，需要删除渲染出问题的页面，重新部署
+// update：
+// 1增加外链
+// 2增加vercel分析@vercel/analytics
+// 3取消角落的github跳转标签。
+// 4调试成功在线视频播放
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
