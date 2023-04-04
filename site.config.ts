@@ -1,6 +1,5 @@
 // -*- coding: utf-8 -*-
 // 如果部署出错，且配置文件没有问题，很可能是某个页面，无法渲染，导致build出错，需要删除渲染出问题的页面，重新部署
-
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
